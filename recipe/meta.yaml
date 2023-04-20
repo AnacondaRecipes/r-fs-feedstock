@@ -58,7 +58,6 @@ about:
 extra:
   recipe-maintainers:
     - conda-forge/r
-    - nick-youngblut
 
 # Package: fs
 # Title: Cross-Platform File System Operations Based on 'libuv'
