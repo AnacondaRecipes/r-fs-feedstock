@@ -20,6 +20,10 @@ build:
     - lib/
     - lib/R/bin/x64  # [win]    
 
+  # weird error on windows
+  missing_dso_whitelist:
+    - $RPATH/R.dll  # [win]
+
 requirements:
   build:
     - cross-r-base {{ r_base }}    # [build_platform != target_platform]
